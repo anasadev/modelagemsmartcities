@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C659A51B-1F17-37A3-4522-046131366F7F" containerWithKeyObject="6BE9044A-3688-569D-B639-EC5FCB75D16F" localFKIndex="A0476A79-B00C-A2A5-934C-FFB65BF58A8B" name="contem_tb_medicamento_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>A674D1F8-8F23-F4B8-4233-E16E219F4169</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<referredTableLongName>tb_medicamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC609D72-E58F-3ACD-CC96-C68ED3D502B3</referredTableID>
+<keyObject>E769F610-2D01-F828-CBD3-130EFDA5D04E</keyObject>
+<referredKeyID>E769F610-2D01-F828-CBD3-130EFDA5D04E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_medicamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

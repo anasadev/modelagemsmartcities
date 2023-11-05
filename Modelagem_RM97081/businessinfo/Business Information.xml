@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D6E4F7DE-9976-08B8-C198-6478429D8611">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:46:56 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

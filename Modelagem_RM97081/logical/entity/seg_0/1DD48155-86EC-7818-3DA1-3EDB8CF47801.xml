@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DD48155-86EC-7818-3DA1-3EDB8CF47801" name="tb_receita">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:56:01 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_receita" id="390CB589-D22E-846F-21FF-291C56FCC4E8">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:56:07 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="41A22C37-D635-2F54-74AD-C6F244211AB6">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:56:23 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_usuario" id="39C4A53E-FCB8-B453-458E-4FBF584C5534">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:04:45 UTC</createdTime>
+<generatorID>BA949747-E99D-565E-573D-1CF71C3486C9</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<referedAttribute>ACCEB500-487F-5988-245B-9AE7E529D5DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="A5BC8E1C-2016-9991-EBC6-E80AF929BA36">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:04:45 UTC</createdTime>
+<generatorID>BA949747-E99D-565E-573D-1CF71C3486C9</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<referedAttribute>5BA34A9C-3E8A-ECB7-4F31-6DD5C95D56E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3773EDCC-3CE2-33DC-3166-D828609A40D1" name="Receita PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:56:18 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>390CB589-D22E-846F-21FF-291C56FCC4E8</attributeRef>
+<attributeRef>39C4A53E-FCB8-B453-458E-4FBF584C5534</attributeRef>
+<attributeRef>A5BC8E1C-2016-9991-EBC6-E80AF929BA36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

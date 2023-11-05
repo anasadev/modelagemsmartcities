@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CB9FD32-9AFB-63B9-7378-1AAF176BB8CC" name="tb_receita">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>1DD48155-86EC-7818-3DA1-3EDB8CF47801</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_receita" id="8F923D35-31CD-2781-6283-1875FC724446">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>390CB589-D22E-846F-21FF-291C56FCC4E8</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_validade" id="D5F2B025-67B6-87D6-E311-4556E7AF847E">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>41A22C37-D635-2F54-74AD-C6F244211AB6</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_usuario_codigo_usuario" id="64ED3575-13A6-3342-381D-B0AEC047E29B">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>39C4A53E-FCB8-B453-458E-4FBF584C5534</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="104D4D1C-DC93-9702-FF73-6B08FE59AFA5" referredColumn="94012169-8DAE-90E7-4A7F-8627DBCF5A2E"/>
+</associations>
+</Column>
+<Column name="tb_usuario_tb_bairro_codigo" id="9F870D8F-8D3B-ACC3-E12D-0487FEB5262E">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>A5BC8E1C-2016-9991-EBC6-E80AF929BA36</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="104D4D1C-DC93-9702-FF73-6B08FE59AFA5" referredColumn="EE90D936-FC32-9CB5-50D4-D889E0C80D25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39BFDF89-C14A-0B79-44F5-60BFE8B5FFB8" name="tb_receita_PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>3773EDCC-3CE2-33DC-3166-D828609A40D1</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F923D35-31CD-2781-6283-1875FC724446"/>
+<colUsage columnID="64ED3575-13A6-3342-381D-B0AEC047E29B"/>
+<colUsage columnID="9F870D8F-8D3B-ACC3-E12D-0487FEB5262E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5974D34F-B252-1CA8-9122-2F5A4649CDB4" name="tb_receita_tb_usuario_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>BA949747-E99D-565E-573D-1CF71C3486C9</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64ED3575-13A6-3342-381D-B0AEC047E29B"/>
+<colUsage columnID="9F870D8F-8D3B-ACC3-E12D-0487FEB5262E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

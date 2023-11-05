@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contem" directorySegmentName="seg_0" id="A674D1F8-8F23-F4B8-4233-E16E219F4169">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:05:37 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1DD48155-86EC-7818-3DA1-3EDB8CF47801</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C6EFC5C4-A4DA-8D78-CB79-9D210283439E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

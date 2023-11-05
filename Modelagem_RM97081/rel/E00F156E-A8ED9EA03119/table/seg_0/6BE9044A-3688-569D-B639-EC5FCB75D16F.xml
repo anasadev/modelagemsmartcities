@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BE9044A-3688-569D-B639-EC5FCB75D16F" name="medic_receita">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<ordsAlias>contem</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_receita_codigo_receita" id="172D9B60-A197-4D6B-491A-D4D3C987268A">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6690AF7-9F21-4476-06BD-CD8939B379CD" referredColumn="8F923D35-31CD-2781-6283-1875FC724446"/>
+</associations>
+</Column>
+<Column name="tb_receita_codigo_usuario" id="1AFF3EA2-0748-B340-6368-2E852E6DAA2D">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6690AF7-9F21-4476-06BD-CD8939B379CD" referredColumn="64ED3575-13A6-3342-381D-B0AEC047E29B"/>
+</associations>
+</Column>
+<Column name="tb_receita_codigo" id="0601FCAF-0F59-6038-8BC6-169E50E11D85">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6690AF7-9F21-4476-06BD-CD8939B379CD" referredColumn="9F870D8F-8D3B-ACC3-E12D-0487FEB5262E"/>
+</associations>
+</Column>
+<Column name="codigo_medicamento" id="22B7B6DC-66AE-E29A-8DC0-FFAB22880C5F">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C659A51B-1F17-37A3-4522-046131366F7F" referredColumn="B6E8391B-DE14-A125-D0DB-ED23C66D902D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D535805-3B6A-4218-426A-C0466AFA91AD" name="contem_PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="172D9B60-A197-4D6B-491A-D4D3C987268A"/>
+<colUsage columnID="1AFF3EA2-0748-B340-6368-2E852E6DAA2D"/>
+<colUsage columnID="0601FCAF-0F59-6038-8BC6-169E50E11D85"/>
+<colUsage columnID="22B7B6DC-66AE-E29A-8DC0-FFAB22880C5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A5E92E9-9653-4A8F-3F03-BC2634B25393" name="contem_tb_receita_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>A674D1F8-8F23-F4B8-4233-E16E219F4169</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="172D9B60-A197-4D6B-491A-D4D3C987268A"/>
+<colUsage columnID="1AFF3EA2-0748-B340-6368-2E852E6DAA2D"/>
+<colUsage columnID="0601FCAF-0F59-6038-8BC6-169E50E11D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0476A79-B00C-A2A5-934C-FFB65BF58A8B" name="contem_tb_medicamento_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>A674D1F8-8F23-F4B8-4233-E16E219F4169</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22B7B6DC-66AE-E29A-8DC0-FFAB22880C5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

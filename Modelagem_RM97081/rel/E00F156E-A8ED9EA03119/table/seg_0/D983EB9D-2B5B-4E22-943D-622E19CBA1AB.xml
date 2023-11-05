@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D983EB9D-2B5B-4E22-943D-622E19CBA1AB" name="tb_posto">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>24F433DF-346E-5158-439C-4630C2E70C15</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_posto" id="A5C5986B-6892-63E2-BD7E-A63515AF9DDA">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>FE8CCAEE-CB0C-D1AD-C94B-36A2067D0AFF</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_abertura" id="D3073536-4BC2-0C7D-3789-6B28C37E6873">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>E7B7A166-FEF3-EAB3-46FE-9E3A9E677D3D</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_fechamento" id="A23FC768-D5D8-8952-9B81-9A295FF6EA34">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>7205B036-07D5-3DDA-B459-0F4243896879</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_funcionamento" id="D89C3A8D-3133-291C-01CA-9AC317708018">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>B9791615-ADE3-6E67-F04C-F5ECCEAE0F12</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_bairro_codigo" id="F66CF3D4-AF69-6FBB-7BA6-7E9F562087CD">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>3957C80D-4353-CEE1-1EBF-480544BFA3A2</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FAC71CA-9623-B7D1-28FB-E637F361BC27" referredColumn="C8A87069-7C5E-5972-F05C-A36859490B77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D8D5360-D9BE-42CB-9671-BBC341A1CF69" name="tb_posto_PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>59110F9F-EFA7-C3A3-AB8F-36756F46DCE7</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C5986B-6892-63E2-BD7E-A63515AF9DDA"/>
+<colUsage columnID="F66CF3D4-AF69-6FBB-7BA6-7E9F562087CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="674981D8-AF6C-8CC0-0F83-E67898AFF25E" name="tb_posto_tb_bairro_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>C737FA40-4ED8-70BC-445A-321C7F3F4AC7</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F66CF3D4-AF69-6FBB-7BA6-7E9F562087CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

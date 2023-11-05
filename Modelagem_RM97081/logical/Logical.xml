@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0B3AAB27-CF99-965B-1917-EEABF92DAE5C" mainViewID="1C205258-0AE2-F4C7-150C-3D8926A4BD39">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:46:55 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78826551-8A3A-9EF0-161C-CB33EFAAEB43" containerWithKeyObject="B698329A-4724-9C3E-3D97-6C7DF542192E" localFKIndex="E435015D-0AC2-C1C5-12CE-579D67D3A47B" name="possuiv4_tb_posto_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>07E0220F-FD52-1305-9F26-08F12580C049</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<referredTableLongName>tb_posto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D983EB9D-2B5B-4E22-943D-622E19CBA1AB</referredTableID>
+<keyObject>8D8D5360-D9BE-42CB-9671-BBC341A1CF69</keyObject>
+<referredKeyID>8D8D5360-D9BE-42CB-9671-BBC341A1CF69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_posto,tb_bairro_codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

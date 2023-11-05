@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC609D72-E58F-3ACD-CC96-C68ED3D502B3" name="tb_medicamento">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>C6EFC5C4-A4DA-8D78-CB79-9D210283439E</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_medicamento" id="B6E8391B-DE14-A125-D0DB-ED23C66D902D">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>044FB122-CC02-DCCB-7917-3FCB1940867D</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_marca" id="38CC5A4A-F7B1-30B4-736D-DC8F4CB07FE3">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>90254B4F-CDAF-2CE6-C657-BD737118A687</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_nome" id="4D00EF1A-FB7F-6DE8-2A34-A89856F3DE1D">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>0EE7A204-300C-3904-8777-0ABF4ED7368E</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_validade" id="10BA4EED-3D2C-A3C9-5D8E-460421AF4186">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>BF5415BF-8CDA-E68E-D8C0-73C2D5EDE141</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_via_admin" id="FA79A946-5A2A-65A6-DDF6-9985199C4184">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>3FF1AFA4-8216-0113-00AD-628F5DB9E999</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_forma_apresentacao" id="C422848F-7C34-D1F8-7152-00EFB1FB960F">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>C8862ACB-11CD-9C03-1ECE-4BE0E986657B</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_quantidade" id="E620C347-0B6E-9B46-C514-231236F69527">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>7E84CC34-A899-95F9-4A9C-C89601A54E99</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E769F610-2D01-F828-CBD3-130EFDA5D04E" name="tb_medicamento_PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>335D6DC8-9F0F-1226-9CA3-B383D2CA43F5</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6E8391B-DE14-A125-D0DB-ED23C66D902D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EADB015-558C-74C9-FC57-5C001949DFCB" name="tb_usuario">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:57:03 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_usuario" id="ACCEB500-487F-5988-245B-9AE7E529D5DD">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:58:51 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_username" id="9AC92105-8907-C19C-54B2-2996956CCD34">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:59:03 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="03C05067-C946-8899-AC63-F30D5456CCE8">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:59:22 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="2B337768-8F34-3A8E-42D7-38012DEC0EA3">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:02:32 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="5BA34A9C-3E8A-ECB7-4F31-6DD5C95D56E8">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:04:19 UTC</createdTime>
+<generatorID>59C3819A-9F46-842F-B1C0-F40D42E959B0</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<referedAttribute>56DC70B4-124A-25FD-444B-8A97BC3022FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="266C8BB1-8A2F-AB36-8D12-3979D15ADF7E" name="Usuario PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:59:00 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACCEB500-487F-5988-245B-9AE7E529D5DD</attributeRef>
+<attributeRef>5BA34A9C-3E8A-ECB7-4F31-6DD5C95D56E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

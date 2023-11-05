@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A7EBC9-AC64-C428-8D00-2E1198E90ABB" name="tb_usuario">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>9EADB015-558C-74C9-FC57-5C001949DFCB</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_usuario" id="94012169-8DAE-90E7-4A7F-8627DBCF5A2E">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>ACCEB500-487F-5988-245B-9AE7E529D5DD</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_username" id="645293DF-0C97-C9CF-BD2D-746CBB0F89FF">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>9AC92105-8907-C19C-54B2-2996956CCD34</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="1ECDE1EA-3651-95FC-C228-E236043E66D9">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>03C05067-C946-8899-AC63-F30D5456CCE8</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="AE992373-456C-819B-B973-8C7FEB8F337D">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>2B337768-8F34-3A8E-42D7-38012DEC0EA3</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_bairro_codigo" id="EE90D936-FC32-9CB5-50D4-D889E0C80D25">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>5BA34A9C-3E8A-ECB7-4F31-6DD5C95D56E8</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED27B3D5-2F45-163B-5188-9208D4BD97BA" referredColumn="C8A87069-7C5E-5972-F05C-A36859490B77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED70A647-4E5D-0B12-252F-366958B06C3F" name="tb_usuario_PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>266C8BB1-8A2F-AB36-8D12-3979D15ADF7E</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94012169-8DAE-90E7-4A7F-8627DBCF5A2E"/>
+<colUsage columnID="EE90D936-FC32-9CB5-50D4-D889E0C80D25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92901E22-E903-9843-B7A5-827C5015570F" name="tb_usuario__UN">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:21:31 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ECDE1EA-3651-95FC-C228-E236043E66D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF4934C-2975-E21A-91E7-BE65DFDDBA75" name="tb_usuario_tb_bairro_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>59C3819A-9F46-842F-B1C0-F40D42E959B0</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE90D936-FC32-9CB5-50D4-D889E0C80D25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

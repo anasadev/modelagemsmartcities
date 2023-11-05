@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B698329A-4724-9C3E-3D97-6C7DF542192E" name="tb_medic_posto">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<ordsAlias>possuiv4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_posto" id="1F563E5B-C998-DF3D-74EC-92ABB40DFF5B">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78826551-8A3A-9EF0-161C-CB33EFAAEB43" referredColumn="A5C5986B-6892-63E2-BD7E-A63515AF9DDA"/>
+</associations>
+</Column>
+<Column name="tb_posto_tb_bairro_codigo" id="515C5C04-1BC9-E632-E25E-EF5AEDB24122">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78826551-8A3A-9EF0-161C-CB33EFAAEB43" referredColumn="F66CF3D4-AF69-6FBB-7BA6-7E9F562087CD"/>
+</associations>
+</Column>
+<Column name="codigo_medicamento" id="17AC8BF4-6D3C-DC25-80AE-184BB2B02F60">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E05696B4-7C1A-A4A9-63A2-B0D547DAA98D" referredColumn="B6E8391B-DE14-A125-D0DB-ED23C66D902D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="920F45DF-11CD-7900-E6CB-E24E1890E94C" name="possuiv4_PK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F563E5B-C998-DF3D-74EC-92ABB40DFF5B"/>
+<colUsage columnID="515C5C04-1BC9-E632-E25E-EF5AEDB24122"/>
+<colUsage columnID="17AC8BF4-6D3C-DC25-80AE-184BB2B02F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E435015D-0AC2-C1C5-12CE-579D67D3A47B" name="possuiv4_tb_posto_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>07E0220F-FD52-1305-9F26-08F12580C049</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F563E5B-C998-DF3D-74EC-92ABB40DFF5B"/>
+<colUsage columnID="515C5C04-1BC9-E632-E25E-EF5AEDB24122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="262CCF5C-09AA-F588-DF91-200B1B6A3B2A" name="possuiv4_tb_medicamento_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>07E0220F-FD52-1305-9F26-08F12580C049</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17AC8BF4-6D3C-DC25-80AE-184BB2B02F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv3" directorySegmentName="seg_0" id="C737FA40-4ED8-70BC-445A-321C7F3F4AC7">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:03:26 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<engineerTo>
+<item key="E00F156E-EE80-39BC-F884-A8ED9EA03119" value="true"/>
+</engineerTo>
+<sourcePk>C64946B7-0B80-66CE-720D-9D1DE15F6B66</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>36E66E5E-7256-8955-4355-5C0AEDA9F691</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24F433DF-346E-5158-439C-4630C2E70C15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

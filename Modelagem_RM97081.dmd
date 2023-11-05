@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelagem_RM97081" id="7FFD1EBE-DFFD-9A02-B35E-0AECBC523852" version="3.5">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 20:46:55 UTC</createdTime>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7FFD1EBE-DFFD-9A02-B35E-0AECBC523852</designId>
+</OSDM_Design>

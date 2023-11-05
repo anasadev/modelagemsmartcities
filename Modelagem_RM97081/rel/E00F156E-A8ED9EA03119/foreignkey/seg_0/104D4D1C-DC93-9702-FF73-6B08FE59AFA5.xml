@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="104D4D1C-DC93-9702-FF73-6B08FE59AFA5" containerWithKeyObject="7CB9FD32-9AFB-63B9-7378-1AAF176BB8CC" localFKIndex="5974D34F-B252-1CA8-9122-2F5A4649CDB4" name="tb_receita_tb_usuario_FK">
+<createdBy>anasa</createdBy>
+<createdTime>2023-08-28 21:12:24 UTC</createdTime>
+<generatorID>BA949747-E99D-565E-573D-1CF71C3486C9</generatorID>
+<ownerDesignName>Modelagem_RM97081</ownerDesignName>
+<referredTableLongName>tb_usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33A7EBC9-AC64-C428-8D00-2E1198E90ABB</referredTableID>
+<keyObject>ED70A647-4E5D-0B12-252F-366958B06C3F</keyObject>
+<referredKeyID>ED70A647-4E5D-0B12-252F-366958B06C3F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_usuario,tb_bairro_codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
